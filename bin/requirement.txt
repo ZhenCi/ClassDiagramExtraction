@@ -1,0 +1,10 @@
+You will develop a vehicle brain as well as a central brain that would enable autonomous vehicles to run smoothly on a
+road. For simplicity, assume that the road has only two lanes, one southbound and another northbound. Also, assume that
+a vehicle could only go in one direction. A southbound vehicle therefore will not have a collision with a northbound
+vehicle even if their distance is 0. The vehicle brain will be installed on each autonomous vehicle, and the central
+brain will be installed on a cloud server. Each autonomous vehicle knows its destination. The vehicle brain keeps asking
+the following three questions: “where am I?” “what is around me?” and “what should I do next?”. Each autonomous vehicle
+knows its current position, speed, and direction. Each autonomous vehicle must be able to communicate with nearby autonomous
+vehicles. Each autonomous vehicle can speed up, slow down, or pull the emergency brake, to achieve maximum safety.
+The central brain obtains the movement information of all autonomous vehicles on the road and broadcasts road conditions
+(e.g., traffic jams) to all vehicles running on the road.

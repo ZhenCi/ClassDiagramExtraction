@@ -1,0 +1,55 @@
+Lab Report Repository
+Last modified on 19 Dec 2018 by Hui.
+Last modified on  6 Dec 2018 by Hui.
+Last modified on  1 Jan 2019 by Hui (added Rationale).
+Last modified on  2 Jan 2019 by Hui (updated Rationale).
+Rationale
+  - For reducing paperwork.  Students don't have to submit their work
+    in person, saving a lot of trouble in bad weather.
+  - For archiving, for searchability and for publicity.
+  - For reducing the missing rate.  From my experience, I could miss
+    2% of email-based submissions in my first round of marking.  When
+    there are hundreds of submissions, it is easy to ignore a few
+    submissions, either because of vague email subject from the
+    student side or because of inevitable human error from my side.
+Functional requirements
+- Report accessibility: public or private (visible after N days).
+  - The content of lab reports should NOT be visible to other students before the deadline (or before the extended deadline). But submission status can be made public.
+  - Do we want to make the reports available to future students taking the same course?
+  - Do we want to make the reports publicly accessible after a certain period?
+  - How to maximize flexibility when controlling accessibility.
+- For each lab report, instructors set a deadline or grant a deadline extension for sick students.
+- Instructors give feedback (what forms of feedback do we plan to have?).  Students check feedback.  Should instructors and TAs have the same privileges?
+- Students request remarking (if any).
+- The administrator creates accounts & sets initial passwords.  What information does he need?  How does he distribute user names and passwords?
+- The administrator suspends/deletes accounts.
+- Consider other application areas when designing. For example, a blood-test lab in a hospital might also find this application useful.  Make code reusable.
+- Use your favourite programming language.
+- Database: SQLite (recommended).  How many database tables and what columns to include?
+
+- [New & Must have] Course portal.  Use course portal to simplify course
+  management.  The instructor can create a course portal, with a
+  sensible http address, e.g., .../InstructorLastName-CourseName-Semester-Section (Trump-DealArt-Fall2018-Section1).
+  This address format is recommended but not required.  The instructor
+  can use any portal name as long as the name has not been taken.
+- [New & Won't have (optional)] Team creation.  Students often do labs
+  in groups.  We should allow them to form teams.  The team
+  information (user names, real names and student numbers) is included
+  in each lab report submission.
+- [New & Must have] There must be a marking status associated to each submitted
+  lab report.  By default, the marking status is PENDING (preferably
+  shown in red).  The instructor/TA can change the status to FINISHED
+  (preferably shown in green) when done.  It is desirable to show the
+  text PENDING and FINISHED in different colours, which helps us
+  quickly identify not-yet-marked (or marked) reports from a list of
+  many submissions.  [Added on 19 December 2018]
+- [New & Should have] Click Minimalism.  We prefer to finish a task in
+  a most straightforward manner that requires minimum number of
+  mouse clicks.  Therefore make sure the LRR minimalises the number of
+  clicks required for the most frequently used features (e.g.,
+  submitting a lab report to a destination in LRR).  Check the
+  Three-click rule.  [Added on 19 December 2018]
+Main roles
+- Students, instructors, TAs, administrators, and visitors.
+
+

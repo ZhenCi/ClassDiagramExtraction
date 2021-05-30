@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7bf73a19-1a48-445f-97b6-6d4174fcb1f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/FinalProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/ClassDiagramMaker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/LRR.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/buglist.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/class_identify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/homepage.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/requirement.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/requirement2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/rough-ideas.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="FinalProject" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1p6nNVx4LjgDDxctf7Y4vXAAJ1H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ClassDiagramExtraction\FinalProject\bin" />
+      <recent name="C:\Users\呵呵\PycharmProjects\FinalProject\bin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ClassDiagramExtraction\FinalProject\bin" />
+      <recent name="C:\Users\呵呵\PycharmProjects\FinalProject\tests" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="ClassDiagramMaker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FinalProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/ClassDiagramMaker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="core_Method" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FinalProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\呵呵\PycharmProjects\FinalProject\core\class_identify.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FinalProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nltk_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FinalProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/nltk_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="word_counter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FinalProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/word_counter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.ClassDiagramMaker" />
+        <item itemvalue="Python.nltk_test" />
+        <item itemvalue="Python.word_counter" />
+        <item itemvalue="Python.core_Method" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bf73a19-1a48-445f-97b6-6d4174fcb1f0" name="Default Changelist" comment="" />
+      <created>1614512367191</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614512367191</updated>
+      <workItem from="1614512368663" duration="659000" />
+      <workItem from="1616294122788" duration="1248000" />
+      <workItem from="1616413949730" duration="5028000" />
+      <workItem from="1616483657517" duration="294000" />
+      <workItem from="1616490946175" duration="1359000" />
+      <workItem from="1616501940420" duration="1209000" />
+      <workItem from="1616546998033" duration="13315000" />
+      <workItem from="1616635574496" duration="4532000" />
+      <workItem from="1616728682175" duration="1205000" />
+      <workItem from="1616757959242" duration="5731000" />
+      <workItem from="1616773535845" duration="2922000" />
+      <workItem from="1616810866904" duration="7313000" />
+      <workItem from="1616835262881" duration="1494000" />
+      <workItem from="1616928900445" duration="602000" />
+      <workItem from="1616997787155" duration="9654000" />
+      <workItem from="1617072623059" duration="13114000" />
+      <workItem from="1617152621681" duration="7246000" />
+      <workItem from="1617257162348" duration="775000" />
+      <workItem from="1617344239844" duration="2416000" />
+      <workItem from="1617346709759" duration="2356000" />
+      <workItem from="1617674682499" duration="7000" />
+      <workItem from="1617680132748" duration="3649000" />
+      <workItem from="1617773710810" duration="11165000" />
+      <workItem from="1617802969209" duration="429000" />
+      <workItem from="1617858051539" duration="8863000" />
+      <workItem from="1617877209295" duration="1812000" />
+      <workItem from="1617890429883" duration="644000" />
+      <workItem from="1617939081101" duration="12675000" />
+      <workItem from="1618150769244" duration="1199000" />
+      <workItem from="1618194929691" duration="5643000" />
+      <workItem from="1618210823985" duration="6338000" />
+      <workItem from="1618300287914" duration="2318000" />
+      <workItem from="1618322788147" duration="1355000" />
+      <workItem from="1618392989893" duration="308000" />
+      <workItem from="1618402120208" duration="3630000" />
+      <workItem from="1618410947585" duration="2080000" />
+      <workItem from="1618416218713" duration="270000" />
+      <workItem from="1618465434182" duration="1295000" />
+      <workItem from="1618668469881" duration="3865000" />
+      <workItem from="1618799731732" duration="384000" />
+      <workItem from="1618836383675" duration="3511000" />
+      <workItem from="1619416119630" duration="125000" />
+      <workItem from="1619438983978" duration="1914000" />
+      <workItem from="1619448287170" duration="96000" />
+      <workItem from="1619487648258" duration="18114000" />
+      <workItem from="1619578522665" duration="92000" />
+      <workItem from="1619589438829" duration="4855000" />
+      <workItem from="1619676887714" duration="10573000" />
+      <workItem from="1619702060061" duration="1401000" />
+      <workItem from="1619749506170" duration="3968000" />
+      <workItem from="1619935769221" duration="5582000" />
+      <workItem from="1620005232212" duration="5718000" />
+      <workItem from="1620011375669" duration="733000" />
+      <workItem from="1620021851347" duration="6100000" />
+      <workItem from="1620029922127" duration="696000" />
+      <workItem from="1620032290538" duration="558000" />
+      <workItem from="1620033142335" duration="185000" />
+      <workItem from="1620042246999" duration="4737000" />
+      <workItem from="1620049758553" duration="1286000" />
+      <workItem from="1620051874385" duration="1819000" />
+      <workItem from="1620106423007" duration="9515000" />
+      <workItem from="1620121804347" duration="1160000" />
+      <workItem from="1620123125559" duration="3072000" />
+      <workItem from="1620126456283" duration="1148000" />
+      <workItem from="1620129822847" duration="2835000" />
+      <workItem from="1620139510856" duration="69000" />
+      <workItem from="1620189841773" duration="3050000" />
+      <workItem from="1620301573606" duration="662000" />
+      <workItem from="1620305456903" duration="2712000" />
+      <workItem from="1620640452005" duration="3145000" />
+      <workItem from="1620644053247" duration="1401000" />
+      <workItem from="1620740169896" duration="2818000" />
+      <workItem from="1620796780096" duration="8000" />
+      <workItem from="1620815445141" duration="396000" />
+      <workItem from="1620815983737" duration="9379000" />
+      <workItem from="1620827906961" duration="26000" />
+      <workItem from="1620828325191" duration="191000" />
+      <workItem from="1620828796918" duration="850000" />
+      <workItem from="1620896301375" duration="2526000" />
+      <workItem from="1620913627512" duration="334000" />
+      <workItem from="1620914032458" duration="610000" />
+      <workItem from="1620915213744" duration="22000" />
+      <workItem from="1620916480267" duration="560000" />
+      <workItem from="1620917134361" duration="400000" />
+      <workItem from="1620961219131" duration="962000" />
+      <workItem from="1620967478913" duration="5024000" />
+      <workItem from="1620981131031" duration="632000" />
+      <workItem from="1621325550764" duration="798000" />
+      <workItem from="1621651771087" duration="2377000" />
+      <workItem from="1621820758806" duration="3199000" />
+      <workItem from="1621913262719" duration="1766000" />
+      <workItem from="1621942613447" duration="867000" />
+      <workItem from="1621993953459" duration="1904000" />
+      <workItem from="1622274078502" duration="1239000" />
+      <workItem from="1622292426346" duration="6710000" />
+      <workItem from="1622348839857" duration="646000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FinalProject$ClassDiagramMaker.coverage" NAME="ClassDiagramMaker Coverage Results" MODIFIED="1619505201286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/FinalProject$nltk_test.coverage" NAME="nltk_test Coverage Results" MODIFIED="1618838964494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/FinalProject$core_Method.coverage" NAME="core_Method Coverage Results" MODIFIED="1616816101561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
+    <SUITE FILE_PATH="coverage/FinalProject$main.coverage" NAME="main Coverage Results" MODIFIED="1622306349141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/FinalProject$word_counter.coverage" NAME="word_counter Coverage Results" MODIFIED="1617955669449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
+  </component>
+</project>

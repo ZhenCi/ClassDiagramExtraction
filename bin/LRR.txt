@@ -1,0 +1,231 @@
+SRS Document for Lab Report
+Repository System Documentation
+Release latest
+Dec 27, 2018
+Contents
+i
+ii
+SRS Document for Lab Report Repository System Documentation, Release latest
+By Mohamed Nor (201825800050) Elmahdi Houzi (201825800054) 12/27/2018
+The document in this file adapts the ieee guide to software requirements specifications (std 830-1993).
+Table of contents
+1. Introduction 2
+1.1 Purpose 2
+1.2 Scope 2
+1.3 Definitions, acronyms, and abbreviations 2
+2. The overall description 3
+2.1 Product perspective 3
+2.1.1 system interfaces 3
+2.1.2 Interfaces 3
+2.1.3 Hardware interfaces 5
+2.1.4 Software interfaces 5
+2.1.5 Communications interfaces 6
+2.1.6 Memory constraints 6
+2.1.7 Operations 6
+2.1.8 Site adaptation requirements 6
+2.2 Product functions 6
+2.3 User characteristics 7
+2.4 constraints 7
+2.5 Assumptions and dependencies 7
+2.6 Apportioning of requirements 7
+3.Modeling Requirements 8
+3.1 UML Use Case Diagram 8
+3.1.1 : Use Case diagram 8
+3.1.1 : Use Case Descriptions 9
+3 . 2 Database diagram 12
+4.References 12
+1. Introduction
+The lab report repository can handle all the details about lab reports. The details include posting lab reports and setting
+deadline for them by lecturers , submission of lab reports by students , marking lab reports . The lab report repository
+system is an automated version of manual lab report management.
+1.1 Purpose
+This SRS document contains the complete software requirements for the lab report repository system (LRRS) and
+describes the design decisions, architectural design and the detailed design needed to implement the system. It provides
+the visibility in the design and provides information needed for software support. New reliable and fast lab report
+repository system software with the great customers support. It’ll help the daily lab report management routines and
+deliver its users from the paperwork.
+1.2 Scope
+The lab report repository system is developing for general purpose and used to replace old paperwork and email based
+systems . This system increases the efficiency of lab report submission and result reporting for both lecturers and
+students. The system will allow the lecturer to publish lab reports, set deadline for them , extend the deadline for sick
+students and also to publish the results for students. For students the system will allow them to submit lab reports
+through the system in convenient way and to view results of their work when published by lecturers.
+This system will benefit both the students and lecturers and the institution in general and it reduces the headaches
+
+SRS Document for Lab Report Repository System Documentation, Release latest
+related to lab report publication and submission. The students will get a centralized location for all their lab report
+assignments and they will not miss any assignment.
+1.3 Definitions, acronyms, and abbreviations
+LRRS - Lab Report Repository System.
+PHP - Server Side Scripting language
+SRS - Software Requirements Specification
+MySQL - Relational Database Management System
+IEEE - The institute of electrical and electronics engineers, inc.
+TA - Teaching Assistant.
+2. Overall description
+The lab report repository system allows authorized admin members to create courses ,student lecturer, and TA accounts. The registered lecturers can post lab reports through the system and set deadlines for them. The students
+registered in a course can view all lab report assignments posted by lecturers in that course portal and can submit their
+work through the system. The lecturer can post results for students. This system can be used in various educational
+institutes across the globe and simplifies work of institutes.
+2.1. Product perspective
+The proposed system shall be developed using client/server architecture and be compatible with both Linux and Microsoft windows operating system. The system will be developed using PHP as web scripting language and MySQL
+as the backend database.
+2.1.1. System interfaces
+None
+2.1.2. User interfaces
+The LRRS will have the following user-friendly and menu driven interfaces
+1. Login: to allow the entry of only authorized users through valid login email or student id and password.
+
+SRS Document for Lab Report Repository System Documentation, Release latest
+2. Students registration: students can register with their passport number & student id. Student registration consist
+of two steps, first step the student identity is checked in the database and then the system allows for the student
+to create his/her account with email and password.
+3. Create lecturer/Ta accounts : to create lecturers by the administration.
+
+SRS Document for Lab Report Repository System Documentation, Release latest
+4. Student groups : create course groups for group assignments , one student creates group (he/she will be the
+group admin) and then invites others to join, and other students could accept/reject the group invite.
+5. Create courses : to create courses by the administration or lecturers.
+6. Join course : students can enroll in course portals.
+7. Accept students : to accept students joining specific course by lecturers & TA. The member acceptance step can
+be disabled in the course portal setting by the lecturer.
+8. Post lab report: to post new lab report and assign deadline for it by lecturers.
+9. Update deadline : to update deadline for specific students(e.g sick students) or for all students by lecturers.
+10. Lab report submission : student can submit his/her lab report individually or for his group (if he/she is the group
+admin) before the deadline.
+11. Lab report result posting : to post lab results for students (done by lecturers & TAs)
+12. View lab report result : to view lab report results by students
+13. Notification panel : to notify lecturers for the lab report submissions by their students and to notify students for
+newly posted lab reports in the courses they already joined.
+14. Visitor portal : visitors can see public lab reports without authentication.
+15.
+2.1.3. Hardware interfaces
+1. Screen resolution of at least 640 x 480 or above.
+C) Computer and mobile systems will be in the networked environment as it is a multi- user system.
+2.1.4. Software interfaces
+1. Ms-windows or Linux operating system
+2. EasyPHP web server
+
+SRS Document for Lab Report Repository System Documentation, Release latest
+3. MySQL database for backend
+4. Platform : PHP scripting language
+5. Integrated Development Environment(IDE): Sublime
+2.1.5. Communication interfaces
+The communication between the different parts of the system is important since they depend on each other.
+However, in what way the communication is achieved is not important for the system and is therefore
+handled by the underlying operating system.
+2.1.6. Memory constraints
+At least 4 GB ram and 500 GB space of hard disk will be required to run the software. The hard disk
+requirement may be increased based on the number of students using the system and the system will
+provide alerts about disk space availability.
+2.1.7. Operations
+None
+2.1.8. Site adaptation requirements
+The terminal at client site will have to support the hardware and software interfaces specified in the section
+2.1.3 and 2.1.4 respectively.
+2.2. Product functions
+The LRRS will allow access only to authorized users with specific roles (system administrator, lecturer, TA and
+student). Depending upon the user’s role, he/she will be able to access only specific modules of the system. Visitors
+can only view public reports without the need for authorization. The administrator creates lecturers, A user accounts
+and course portals. Administrator assigns lecturer and TA to each course portal. To make the system more flexible
+we will allow the lecturer to create his/her own course portals. Students create their user accounts using their student
+id and Passport/ID numbers. Once student creates his/her own user account he/she can browse course portals in the
+system and join them. Based on the setting for each course portal (managed by its lecturer) the joining process may
+require lecturer acceptance. The lecturer posts lab reports inside course portals and the students can view/download
+them and submit their work for the lab report through the system.
+A summary of major functions that the LRRS will perform
+• A login facility for enabling only authorized access to the system.
+• System administrator will be able to add, modify or delete lecturers, students and courses
+• Lecturer will be able to post lab reports in course portals and mark student submissions.
+• Students will be able to join courses and submit lab reports
+• Lecturer will be able to mark student submissions and make it public for visitors after the deadline.
+2.3. User characteristics
+• Qualification: at least matriculation and comfortable with English.
+• Experience: should be well versed/informed about the registration process in courses.
+• Technical experience: elementary knowledge of computers
+2.4. Constraints
+• There will only be one administrator.
+• The delete operation is available only to the administrator.
+To reduce the complexity of the system, there is no check on delete operation. Hence, administrator should be
+very careful before deletion of any record and he/she will be responsible for data consistency.
+
+SRS Document for Lab Report Repository System Documentation, Release latest
+2.5 Assumptions and dependencies
+• The login email and password for lecturers and TA must be created by system administrator and communicated
+to the concerned user confidentially to avoid unauthorized access to the system.
+• It is assumed that a student registering for courses has paid desired university fee.
+2.6 Apportioning of requirements
+Not required
+3. Modeling Requirements
+3.1 UML Use Case Diagram
+3.1.1 : Use Case diagram
+The purpose of this diagram is to demonstrate how objects will interact with LRRS and map out the basic functionality
+of the system.
+Main characters of the system are :
+1. Admin
+2. Lecturer
+3. Teaching Assistant (TA)
+4. Student
+3.1.2 : Use Case Descriptions
+1. Use Case: Login
+Actors: Admin, Lecturer, TA, Student
+
+SRS Document for Lab Report Repository System Documentation, Release latest
+Type: Primary and essential
+Description: Initiated when a user attempts an action that is restricted. The user is then prompted to enter in their
+username and password in order to proceed.
+2. Use Case: Create Course Portals
+Actors: Admin , Lecturer
+Type: Primary and essential
+Description: Allows admin and lecturer to create course portals.
+3. Use Case: Post lab reports
+Actors: Lecturer
+Type: Primary and essential
+Description: Allows the lecturer to post new lab report in a course portal.
+4. Use Case: Manage lab report deadline
+Actors: Lecturer
+Type: Primary and essential
+Description: Allows the lecturer to manage lab report deadline for all students or for specific student.
+5. Use Case: Evaluate lab report submissions
+Actors: Lecturer
+Type: Primary and essential
+Description: Allows the lecturer to evaluate and mark lab report submissions in course portals.
+6. Use Case: Accept students joining course portals
+Actors: Lecturer
+Type: Secondary
+Description: Allows the lecturer to accept students joining his/her course if the new portal members are to required
+to get acceptance for the teacher according to portal’s setting.
+7. Use Case: Register in the system
+Actors: Student
+Type: Primary and essential
+Description: Allows students to create their own user accounts in the system using their student id and passport/id
+numbers.
+8. Use Case: Join Course
+Actors: Student
+Type: Primary and essential
+Description: Allows students to join course portals to view and submit lab reports.
+9. Use Case: Create/join Course groups
+Actors: Student
+Type: Primary and essential
+Description: Allows students to Create or join groups in course portals so that students can submit group lab reports.
+
+SRS Document for Lab Report Repository System Documentation, Release latest
+10. Use Case: Submit lab report
+Actors: Student
+Type: Primary and essential
+Description: Allows students to submit lab report to the lecturer in course portals.
+11. Use Case: View lab reports results
+Actors: Admin
+Type: Primary and essential
+Description: Allows the students to check results posted by the lecturer for their lab report submissions.
+12. Use Case: View public lab reports
+Actors: Visitor
+Type: Primary and essential
+Description: Allows visitors to view public lab reports without the need for authentication.
+3 . 2 Database diagram
+The database schema is the blueprints of the system database, it represents the description of a database structure, data
+types, and the constraints on the database. The database will consist of 10 tables.
+4. References
+(a) ‘Software Engineering’ by k.k. Aggarwal & yogesh singh, new age publishing house, 2nd ed.
+(b) IEEE recommended practice for software requirements specifications – IEEE std 830-1998.
+(c) IEEE standard for software test documentation – IEEE std. 829-1998.

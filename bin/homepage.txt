@@ -1,0 +1,40 @@
+Welcome to our Lab Report Repository Software (LRRS) project home page.
+LRRS is an open source lab report management software for college students. The project is released under MIT License.
+Overview
+LRRS is an open source lab report management software for college students.
+The lab report repository system was developed for general purposes and used to replace oldpaperwork and email-based systems . This system increases the efficiency of lab reportsubmission and result reporting for both lecturers and students.
+The project was developed at ZJNU by Mohamed nor and El-mahdi houzi.The project was tested by some undergraduate students at the Zhejiang Normal University.
+The system is developed using client/server architecture and its compatible with both Linux and Microsoft Windows Operating Systems. The system was developed using PHP Scripting language and MySQL as database management system.
+The LRRS project has seen incredible improvements since it's development earlier 2019.The software includes a lot of features that simplify assignment submission and grading.we invite you to participate in the development of LRRS.For helpful hints about how to get the most out of this project, see  Quick Start  Section.
+System Features
+The following table shows a list of features that LRRS support
+1  Create lecturer/TA accounts  To create lecturers and Teaching Assistants (TA)  Administrators
+2  Students registration  Students can register with their passport number & student id. Student registration consists of two steps. Step 1: the student identity is checked in the database. Step 2: if found, the system allows the student to create his/her account with email and password.  Students
+3  Login  Entry of only authorized users through valid login email or student id and password  All except Visitors
+4  Password Reset  To reset lost password by sending a link to the user's sign-up email address  All except Visitors
+5  Create courses  Create Course Portals  Administrators/Lecturers
+6  Join course  Students can enroll in course portals.  Students
+7  Student groups  Create course groups for group assignments  Students
+8 Accept students  To accept students joining a specific course . The member acceptance step can be disabled in the course portal setting by the lecturer.  Lecturers / TAs
+9 Post lab report  To post a new lab report and assign a deadline for it.  Lecturers
+10  Update deadline  To update deadline for specific students(e.g sick students) or for all students.  Lecturers
+11  Lab report submission  Student can submit his/her lab report individually or for his group  Students
+12  Lab report result posting  To post lab results for students  Lecturer & TAs
+13  View Assignment grading  To view assignment grading posted by lecturer  Students
+14  Request remarking  To request submission remarking from the lecturer  Students
+15  Visitor portal  Visitors can see public lab reports without authentication. Visitors
+Screenshots
+Below are selected screenshots from LRRS (click on screenshot to view in full size)
+Source Code Download
+• Download application source code
+      A zip file containing the php scripts as well as all resources used in the application.
+• Download database
+      SQL file containing database script to be used with the application.
+• View source code at github
+      You can also get project source code from our public github repository.
+Contact Us
+For any suggestions, questions and enquiries about this project, please feel free to contact us on the follwing mailing adressses.
+
+Hui     1348141770_at_qq.com
+Mohamed Nor     engmohamednor_at_gmail.com, or mohamednor_at_qq.com
+Elmahdi Houzi      elmahdihouzi_at_gmail.com, or elmahdihouzi_at_qq.com

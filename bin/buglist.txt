@@ -1,0 +1,661 @@
+49  Could not login with correct password
+
+1   Overwriting existent files
+The current version (as of April 13, 2019) stores all submitted files
+in a single folder called Lab_Report_Submisions.
+In case two submissions have the same name, the older
+one would be overwritten by the new one, causing information loss.
+For example, if student s1 submitted a file called code.txt at t1 and student s2 submitted a file with the same file name at t2 > t1, then s2's code.txt will replace s1's code.txt, resulting a total information loss for s1.
+
+8   Feedback does not show properly in a student's account
+Created attachment 1 [details]
+Feedback for other students' work is displayed
+When a student checks the feedback of his submitted lab report/assignment, a list of all other students (with or without feedback) will be displayed.
+This does not make too much sense as he is supposed to only see the feedback relevant to his work (but not others' work).
+
+9   A student could not see his lab report after submitting it
+The student should be able to see his own work in his account after he submitted it.   The benefits of having this is two-folds.
+- Be reassured that he has successfully submitted his work.
+- Access his own work in the future through.
+
+176   Submitted report not shown
+Created attachment 57 [details]
+screenshot for the submitted lab report part
+After subnission I can't check my lab report in the part submitted lab reports and also can't submit again since the submission page already disappeared
+
+182  Student number not recorded
+
+10   The instructor could not see the reasons for a remarking request
+Created attachment 3 [details]
+The instructor could not see the reasons for submitting a remarking request.
+The instructor should be able to see the student's Reasons for
+submitting the remarking request.
+Now students can submit Remarking reason with the remarking request and  Instructor can see it. , also students can see  remarking reasons they've submitted.
+
+41   Show "Submitted by whom" information for group submission
+Created attachment 23 [details]
+Need Submitted by Whom informaiton
+Please show "submitted by whom" information below submission date, e.g, "Submitted: 2019-10-14 23:00:00", for each submission.
+Why is the "submitted by whom" information important?  It is important because it let me quickly know who submitted the work.   Many groups won't put member information in the title.  We should not expect that they would do that.
+See the attached picture for where to add the "submitted by whom" information.
+
+19   Not working for school email accounts (@zjnu.edu.cn)
+
+21   The seconds field in submission time is always 00
+Created attachment 7 [details]
+Please also show seconds information for submission time
+Could you also store and display the seconds information?
+See the red circle in the attached picture.
+
+33   Add newlines in assignment description
+Created attachment 16 [details]
+Missing newlines while displaying assignment description
+See the attached picture.  I think newlines would make the message much easier for reading.
+
+18   Use period instead of a comma
+
+22   Add newlines for separating multiple feedback
+
+32   Downloading remote css slows things down
+LRR depends on a font-awesome stylesheet from a remote place, i.e., cloudflare.
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css
+This greatly slows down page loading.  I experienced noticeable delay.  Not great user experience.
+It would be great if the stylesheet could be stored in the local server.
+
+34   Make group information more readable with better organization
+Created attachment 17 [details]
+Separate each group using larger space
+It is a bit hard for first-time user to figure out group information.
+For example, at first glance, I could not tell whether the first two bullets belong to the first green box or the second green box.  See the attached figure.
+Why not consider the following organization?
+Group Name: M.I.   # Bold face
+Group Leader: IBRAHIM (201732120159)
+Group Member: Yussuf (201732120173)
+
+43   Enable the instructor to upload a class list
+The following functionality, described using User Story, might be handy.
+As an instructor,
+I want to upload a class list for my course,
+so that I could download from LRR a spreadsheet (in CSV format) containing the
+score for all students and for all assignments.
+More details about the class list:
+- The class list is plain text file with two columns separated by TABs.
+- The two columns are student numner and student name.
+- No header line.
+More details about the output.
+- It is a Comma Separated Value file.
+- File name should be the CourseCode + CourseName + Semester + SectionName (if any) + InstructorName.csv
+- Rows are in the same order as that in the class list.
+- The value for a no submission should be NA.  Not 0.
+
+20   Submissions not sorted in descending order of update time
+It would be great if submissions could be ordered in descending order of update time, such that the most recent submission is on the top, and the earliest submission is on the bottom.
+
+35   Make Lab Report Assignment names editable
+Created attachment 18 [details]
+Assignment names should be editable after being created
+I would be a great addition that I could edit assignment names.  Is adding an Edit button beside the yellow box a good idea?  See the attached figure.
+Why do I need this?  Because I made mistakes on the assignment name. I meant "Lab3 - Same day submission" instead of "Lab2 - Same day submission".  If I could not change that, this would cause confusion among students.
+Hi Ashly
+Thanks for the new feature that allows a lecturer to edit assignment information.
+However, it failed a regression test.  Now I am unable to post a new assignment.
+See the attached picture for my input.
+Got the following error in the web browser.  Failed really badly.
+44440 File(s) uploadedError: INSERT INTO `lab_reports_table`(`Course_ID`, `Posted_Date`, `Deadline`, `Instructions`, `Title`, `Attachment_link_1`, `Attachment_link_2`, `Attachment_link_3`, `Attachment_link_4`,Marks,Type) VALUES ('.26.','2020-04-13 20:35','2020-04-30 23:59','None.','Quiz 5','','','','',2,'Individual')
+
+44   Enable the creator of the group to join the group and genarate automatically a new copy of the group
+Created attachment 26 [details]
+this  is image of how the bug  look like
+When you create  the group you are able to join the group and it’s  automatically generate a new group with the same name also the same members of the group.
+(In reply to NGOUNOU, BERNARD from comment #0)
+> Created attachment 26 [details]
+> this  is image of how the bug  look like
+> When you create  the group you are able to join the group and it’s
+> automatically generate a new group with the same name also the same members
+> of the group.
+Your current bug report is vague.
+The picture helps.
+Please clarify the bug report.
+
+65   Students unable to submit assignment after a recent change
+
+25   SQL insert error while trying to create a new course
+Created attachment 11 [details]
+Screentshot for the error message while creating a new course
+I tried to add new course - Introduction to Object-oriented Analysis and Design.
+Got the following error message.
+Data too long for column 'Course_Name' at row 1
+Error: INSERT INTO `courses_table`(`Course_Name`, `Academic_Year`, `Faculty`, `Lecturer_User_ID`, `TA_User_ID`, `Course_Code`, `URL`, `Verify_New_Members`) VALUES ('Introduction to Object-oriented Analysis and Design','2019','Department of Computer Science','27','0','CSC311','CSC3112019','0')
+Data too long for column 'Course_Name' at row 1
+
+30   Unable to login just after sign-up
+Just Created all the users , but we have an issue for all new user accounts.
+They cannot login when created. This issue was caused by an update to password encryption , i did not apply it to Account creation module.
+So for any newly created account to work (before i fix this issue )  Password reset is required as it was lost , then when password is reset it should work properly.
+So for these guys , they have to reset their password first.
+I will fix this ASAP , next two days.
+
+50   Unable to sign up when an email is already in the system
+Created attachment 31 [details]
+email already taken
+Is this by design?
+Couldn't I sign up two accounts using the same email address?
+
+51   Unable to find a course after entering course code CSC1102
+Created attachment 32 [details]
+Unable to find the course after entering the correct course number
+See the attached picture for the screenshot.
+From: ngounou Bernard <ngounoubernard@hotmail.com>
+Date: 2020-03-02 12:49:09
+To: "蓝珲" <lanhui@zjnu.edu.cn>
+Subject: "[SPM] request about LRRS
+hello sir
+sorry to disturb you again in relation to LRRS . It's just that, until now, I can't find myself on our course this semester.
+
+59   Leading space in course search form returns empty result.
+Created attachment 38 [details]
+demo for first bug
+When student enters course code in "Find course by Code" form, and the input start with a leading space, the website cannot find the course.
+e.g. Find course by Code = _CSC1102 (where "_" is a white space). The website returns: No results found for your Search.
+Remove the leading white space, returns the course successfully.
+Also, writing the course code in lower letters, results in "No results found for your Search", e.g. Find Course by Code = csc1102.
+I forgot to mention that bug number 51 might be the same as this bug, but, since I couldn't find it informative enough to make sure that it is the same bug, I have decided to report this in more detailed way.
+Thanks, Ibrahim.
+This is a really important bug.
+Bernard <ngounoubernard@hotmail.com> might be interested in this bug.
+I will send him a message about this.
+
+60   Update password error [exposing SQL statement]
+Created attachment 39 [details]
+SQL statement exposed
+Reported by  KAREN BONIFACE EMMANUEL <kelybabe@gmail.com>
+Update Password Error (LRR).
+LRR displayed SQL statement after the error.
+Bug was already fixed, users are able to update password.
+Reported by Mabasa Nyasha Mutyambizi.
+See the attached picture for more detail.
+
+67   LRR tells a student that he missed the deadline but in fact he submitted the assignment before the deadline   2020-11-11
+Created attachment 46 [details]
+Get false missed assignment notification while submitted the assignment before the deadline
+Hello Sir,
+According to the schedule on the file(quiz file) the due date is today at 23h59.
+Above screenshot is what I got when I wanted to submit my Quiz5.
+Thanks for your good understanding.
+
+70   Unable to login with student number but able to login with email address
+A student is unable to login with his student number plus correct password.
+But he is able to login with his email address plus correct password.
+
+71   Unable to submit quiz 7 (while other students could)
+Created attachment 48 [details]
+Quiz7 submission error
+When samrusike tried to submit quiz7, she got a SQL error (see the attached picture).  This problem is individual.
+One possible cause is her file name including a spaces.
+
+72   File upload error while trying to submit exam answer sheet
+Created attachment 49 [details]
+Exposed SQL statement
+IWOBA REBET EMMANUEL ARMAND could not submit his exam answer sheet
+through LRR on June 11 (see the attached picture), while other ~60 students could.
+This bug might be the same as the one reported below:
+http://118.25.96.118/bugzilla/show_bug.cgi?id=71
+
+74   Unable to update attached files in a posted assignment
+Created attachment 50 [details]
+Failed to update an attached file in a new assignment
+I (as an instructor) posted a new assignment in course (CSC322) - Software Project Management, titled ExamAnswerSubmission-Makeup (Individual).
+I attached two files, StudentNumber-AnswerSheet.txt and ExamInstructions.txt.
+I found an error in StudentNumber-AnswerSheet.txt, i.e., "ExamAnswerSubmission-ExamAnswerSubmission-Makeup" where "ExamAnswerSubmission" had been repeated twice.
+Therefore, I tried to replace the old  StudentNumber-AnswerSheet.txt with a new , correct one by clicking the Edit link and uploading a new StudentNumber-AnswerSheet.txt again.  But I failed -- StudentNumber-AnswerSheet.txt remained the same.
+
+175   A student who already joined the course could not see the posted assignment
+A student who has already joined the course (course code CSC340) could not see the posted assignment, while he was still before the deadline.
+This bug was reported by Wang Zhiyang.
+The bug was caused by Course.php.  $group_id in it was not properly set if the student does not belong to a group.  So we see an SQL statement like below was constructed.
+select Lab_Report_ID from lab_report_submissions where (Student_id=201830220719 or Course_Group_id=)
+Note that "Course_Group_id=)" could cause an SQL syntax error.
+So add the following check after $group_id is altered.
+$group_id=$_SESSION['group_id'];
+if($group_id==""){$group_id=-1;}
+Bug reported by Wang Zhiyang
+
+177   Mark submission does not work
+Created attachment 58 [details]
+Mark Submission no longer working
+(Alas, it worked before.)
+Afer I clicked the "Mark Submission" button, I saw this prompt:
+    TypeError: $(...).dialog is not a function
+See the attached picture for more detail.
+
+178   Students cannot see the posted assignment even it is before the deadline
+For example, if the deadline is 23:59 on 2020-09-28 , then students are unable to see the posted assignment on 2020-09-28.
+The problem is caused by a wrong Deadline string in the database table lab_reports_table, "2020-09-28   23:59".  Notice that there are two extra spaces between "2020-09-30" and "23:59".   Consequently, even "2020-09-28 00:01" becomes greater than "2020-09-28   23:59", because '0' is greater than a space in the ASCII table.
+This is possibly a regression bug after adding this functionality: allowing Lecturer to edit assignment information.  For more details, see the following Pull Request: https://github.com/lanlab-org/LRR/pull/21
+
+183   Marking error
+
+190   Extend Deadline button in the admin's courses portal does work.
+Created attachment 71 [details]
+TypeError: Object doesn't support property or method 'dialog' image
+The Lab Report Assignment List in the admin's courses panel the Extend Deadline button does not work. It gives the following error "TypeError: Object doesn't support property or method 'dialog'". Attached to this message is the image displaying the error.
+
+191   After Picking and Submitting the assignment "Pick one bug(Individual)" the screen still shows the button to Submit Lab Report.   2020-11-24
+Created attachment 72 [details]
+Submit Lab Report still shows after submitting.
+I submitted the lab report and after Submitting the assignment "Pick one bug(Individual)" the screen still shows the button to Submit Lab Report.
+The submission portal shows that the assignment has been submitted.
+
+197   Any account can be easily sabotaged
+Overview:
+This might be the most critical bug ever produced in LRR.
+If this bug to happen actually in a commercial software, it would cause the business millions if not billions of dollars.
+And that system would get shutdown immediately.
+I'm not sure whether I can call this a bug or a security flaw/breach.
+The problem as the title suggests, anyone in anytime can sabotage any account in LRR as long as they can provide the target's email and student ID.
+Steps to reproduce:
+1) Click on "Reset my password" under "Login" button in LRR's homepage.
+2) Enter the targeted student's email and ID.
+3) Click "Recover".
+4) You will see a password reset successfully message, and it will ask you to go Sign up again.
+5) On the homepage, enter the target student ID in the signup form, and click "Next".
+6) Enter the target new information which includes his new password.
+7) Congrats you just have hacked someone.
+Expected result:
+The target should receive an email message with a link to reset his password by himself.
+Actual result:
+The target's account has been sabotaged.
+Additional information:
+I couldn't find the right term for this bug on the severity list, so I would like to propose a new exclusive term: "Disaster"
+
+198   Updating a lab report's visibility makes submission count be 0
+Created attachment 78 [details]
+The underscored numbers are wrong
+Updating the visibility of a lab report to "Public" makes the submission count be 0.
+(See the attached picture for an example.)
+The number 0 in "Lab Report Submissions (0)" is wrong.
+This happened when I logged in as Lecturer Role.
+
+199   Unable to download an attachment from a student's submission
+Created attachment 79 [details]
+File name contains "+"
+Unable to download an attachment from a student's submission
+if the file name contains "+".
+Error message: File does not exist.
+See the attached figure.
+
+200   File name disappears if it contains Chinese characters
+Created attachment 80 [details]
+File name contains Chinese characters
+If the uploaded file name contains Chinese characters, these characters disappear.
+For example, "classdiagram.jpg" became ".jpg".
+See the attached figure.
+
+201   Unable to download an attachment from a student's submission (file name containing commas)
+Created attachment 81 [details]
+File name With Commas
+Unable to download an attachment from a student's submission if the submission's file name contains commas.
+See the attached figure.
+
+203   Unable to download marked submissions
+Created attachment 83 [details]
+Unable to download marked submissions
+After marking an assignment, I am no longer able to download its attachment.
+Got the following error message:
+Not Found
+The requested URL /nor/Lab_Report_Submisions/202025800042/CSC11012020/Reading 4 - Does OO Sync with How We Think was not found on this server.
+See the attached picture for the two files that I could not download (with a red tick before each file).
+
+205   Unable to create a new course under Admin
+Created attachment 84 [details]
+Unable to create a course under Admin
+I logged in as Lecturer.  I tried to create a course by clicking the Admin icon in the top navigation bar (http://118.25.96.118/nor/Admin.php).  I filled the course information in the Course Portal tab and clicked Creat Portal.  I expected to see a new course CSC1001 after clicking Course in the navigation bar (http://118.25.96.118/nor/Courses.php).  However, I did not see that.
+I created the CSC1001 course using the form on the righthand side at http://118.25.96.118/nor/Courses.php
+
+231   Duplicate functionality for creating a new course
+
+246   Too many redirects!
+Created attachment 100 [details]
+Unresponsive page
+Cannot re-open http://118.25.96.118/nor after closing its Tab.
+How to reproduce this bug?
+1.  Open Edge Browser.
+2.  Visit http://118.25.96.118/nor
+3.  Log in
+4.  Browse assignments in a course
+5.  Close the Tab
+6.  Visit http://118.25.96.118/nor again
+Edge Browser reported: ERR_TOO_MANY_REDIRECTS (see the attached picture).
+
+247   Logging in immediately after signing up
+Created attachment 101 [details]
+Automatically logged in after signing up
+When a student signs up (again), he is immediately logged into LRR.
+However, he could not see any of his previous courses.
+How to produce?
+1.  Reset password by clicking http://118.25.96.118/nor/recover_password.php
+2.  Sign up again.
+See the attached picture for what it looks like after being logged in.
+Possible solution: after signing up, tell the user that he has successfully signed up, and redirect him to the login page.  Do not automatically log him in.
+
+24   Need a better directory structure when storing students' assignments
+Created attachment 10 [details]
+directory structure needs improvement
+Currently we use the following directory structure to store a student's assignment submissions (e.g., see the attached picture):
+/student-number/assignment-title/assignment-submission.zip
+This structure is fine if the student takes only one course. But if he took multiple courses that have the same assignment-title, then there is a potential conflict.
+To avoid this, we could either use
+/student-number/course-code/assignment-title_assignement-id/assignment-submission.zip
+or use
+/student-number/course-code/semester/assignment-submission.zip
+Which one is better?
+
+31   The parentheses after by is empty
+Created attachment 15 [details]
+Nothing in the parenthese after by:
+For group submissions, there is no information in "()" after "by:".
+I guess the information should be the member names and their student numbers.
+Check the attached picture.
+
+39   The Password can not be changed
+I tried to click on change Password and entered a new password , and the system said "Password has been changed", but it was not changed because I could still login with my old password and fail to login with my new password.
+
+47   Clicking "Submitting Mark" button in the Mark Submission Dialogue sometimes crashes
+
+52   SQL statement is exposed (shown) when MySQL reports error
+Exposing SQL statements to users can scare them, because this may make them think they have made a big mistake (while in fact we the programmers made the mistake).
+One example is at the following link:
+http://118.25.96.118/bugzilla/attachment.cgi?id=11
+When an SQL error dose occur, the program should handle that exception.
+
+56   Unable to extend an individual's deadline when the work is a group work
+Created attachment 36 [details]
+Deadline for youma has not been successfully set to Mar 13
+Does that restriction make sense?
+If yes, how could I extend the deadline of an assignment for a group?
+If no, I should be able to extend that individual's deadline.
+Need more discussion on that.
+
+57   Group member names appear more than once in a group
+
+66   Sign up - when a student signs up, LRR automatically logs him in
+Created attachment 44 [details]
+Sign up automatically logs in a user even when no info is provided.
+When a student signs up, LRR automatically logs him in, even if he does not
+provide any information in the sign up form.
+See the attached picture.
+Clicking the upper-left Courses button will list courses that student has joined.
+
+76   Assignment's attachment worldwide visible given its URL
+Without having to login, I could see the content of the following file:
+http://118.25.96.118/nor/Lab_Report_Assignments//ExamAnswerSubmission-Makeup/StudentNumber-AnswerSheet.txt
+For confidentiality, probably we should not allow this visibility (if not explicitly made public).
+
+184   Attachment link does not work in Lab Report Assignment list
+Created attachment 62 [details]
+Attachment link does not work
+When I posted an assignment and attached a file to that assignment, the link to the attached file does not work .
+http://118.25.96.118/nor/Lab_Report_Assignments//Choose%20one%20implementation%20and%20propose%20one%20improvement/GroupLeaderStudentNumber_improve.txt
+Error:
+Forbidden
+You don't have permission to access /nor/Lab_Report_Assignments/Choose one implementation and propose one improvement/GroupLeaderStudentNumber_improve.txt on this server.
+Apache/2.4.29 (Ubuntu) Server at 118.25.96.118 Port 80
+
+185  Now the attachment links in the Marked Submissions tab do not work
+Created attachment 63 [details]
+Submission attachment links not working
+For example, the following link does not work anymore (even when I logged in as Lecturer).
+http://118.25.96.118/nor/Lab_Report_Submisions//201836900109/CSC3122020/Analyze%20and%20design%20OAPS/user_stories.txt.txt
+
+188   The file name does not show properly in a student's submission attachment
+Created attachment 68 [details]
+where is the file name?
+For example, I saw this:"Attachment: .txt".
+The part before the suffix is totally gone.
+Why is that?
+
+196   Bizarre options on "list courses by faculty" dropdown list
+Created attachment 77 [details]
+A screenshot for the bug
+Overview:
+When clicking on the "list courses by faculty" dropdown list, you'll find bizarre list items for example:
+"Search by faculty" item duplicated five times.
+There are items named "1" and "2".
+And there is blank items!!!.
+Steps to Reproduce:
+1) login onto LRR
+2) Click on "Search courses by faculty"
+Actual Results:
+Bizarre items as described bove.
+Expected Results:
+Nice and elegant list of faculty items.
+Additional Information:
+See attached screenshot.
+
+202   Unable to download an attachment from a student's submission (file name containing ampersand)
+Created attachment 82 [details]
+Unable to download a file whose filename contains ampersand
+I was unable to download a student's submission with the following filename:
+202025800051 & 202025800052_selenium_web_driver_script.txt
+Error message: File does not exist.
+Note that there is a symbol "&" between the two student numbers.
+See the attached picture too.
+
+206   Course title appears twice in the Lecturer account
+
+207   Student saw the same course appearing twice
+
+217   Missed assignment does not show
+Created attachment 90 [details]
+Missed assignment does not show
+A missed assignment does not show properly if a student joined the course later.
+How to reproduce?
+Let a student join a course after the course's first assignment due date has passed.
+
+243   Submission file name truncated
+Created attachment 97 [details]
+Submission file name truncated.  The Chinese characters are gone, with only '2' left.
+The student submitted a file named "homework.docx".    See the attached picture SubmissionFileNameOriginal.jpg.
+However, the instructor saw "2.docx" instead.  See the attached file SubmissionFileNameTruncated.png.
+Reported by graduate student Hu Gangqiang.
+
+23   Text in each marked submission is not selectable
+Created attachment 9 [details]
+Text not selectable by my mouse in each submission
+Sometimes we wish to be able to select and copy some text in a student's marked submission.  For example, we may wish to use the mouse to select a student's student number (see the attached picture).
+Now it is impossible to do that as the mouse cursor appears as a hand tool instead of a text selection tool.
+
+36   Duplicated names in dropdownlist
+Created attachment 19 [details]
+Duplicated names in the drop-down list whiling extending deadline
+The name **Akussah Mary Doe(201925800173) has appeared twice** in the drop-down list in the Extend Deadline dialogue.
+See the attached picture for more details.
+
+42   Please add a link under Assignments so that I can go back to the list of assignments
+Created attachment 24 [details]
+Add a link under Assignments to bring me back to a list of assignments from a list of submissions.
+It would be convenient if clicking Assignments could bring me back to CSC312's list of assignment.
+Now in order to do that, I need to click Courses (with a book icon beside it) first then click CSC312, two steps.
+See below and also see the circled place in the attached picture.
+Courses > Intro to Object-oriented Analysis and Design(CSC312) > Assignments > Lab2 - Same day submission
+
+53   Do we really need to show "Your Passport / National ID" in the sign-up form
+Hui Lan    2020-03-10 10:53:14 CST
+Created attachment 33 [details]
+The Current Sign up Form
+Perhaps we should hide "Your Passport / National ID" input box (see the attached picture).
+Why?
+Because it is rarely used and it asks people to enter a long number that they do not usually remember.
+Why did we make this input box?  The reason was that we were afraid that someone else (not the student himself) could sign up, which makes the real student unable to sign up.
+This never happens.
+For simplicity, I would suggest to hide (remove) this input box.
+
+189  students should be able to unenroll from a course.
+Created attachment 70 [details]
+image showing the wrong course
+When you login the course website LRR we should be able to unenroll or rather delete the course that we mistakenly enrolled into from the student course portal. For example, I have attached the picture where some of the students enrolled in a wrong course (CSC11012019) instead of (CSC11012020) which is the correct course for Advanced Software Engineering.
+
+26  Typos in the github repository
+Created attachment 12 [details]
+Two typos in README
+Hello Nor
+https://github.com/EngMohamedNor/LabReportRepo
+Two typos in Readme.txt at the above link, simplyfied and databse.  See the attached picture.
+
+204  Canceling a remarking request proceed to send a remarking request.
+Overview:
+When a student tries to send a remarking request, if for whatever reason they decide to cancel the request before submitting it, the pop-up form proceeds to send the request regardless.
+Steps to reproduce:
+1) Click "Request remarking" on a submitted and marked submission.
+2) Cancel the remarking request pop-up dialouge.
+Expected result:
+The pop-up dialogue is closed, and remarking request is cancelled.
+Actual result:
+The pop-up dialogue is closed, however the remarking request is sent regardless.
+Additional information:
+None.
+
+64   Typo: Successfull
+Created attachment 42 [details]
+Successfull is a typo
+When a lecturer successfully updated an assignment's information,
+the web application displayed an info message: "Information Updated Successfull".
+The last word "Successfull" is a typo.
+
+27   Edit option for course name
+Created attachment 13 [details]
+We should be able to correct a misspelled course name
+Hello Nor
+Having an edit fucntionality for course name would be quite useful.
+It happened to me that I misspelled "object" as "obejct" while adding a new course, which is quite embarrassing.
+
+28   Add a batch download option for all submitted assignments
+Created attachment 14 [details]
+Download all option
+Hello Nor
+It would be convenient if we could download all submissions as a zip file.
+This option could be very useful when we are marking programming assignments, or
+when we are archiving submissions for a particular assignment.
+Otherwise, we have to download one by one, which is painfully inefficient if we have hundreds of assignments (the more the worse).
+What do you think?
+
+29   Typo in the project homepage
+
+37   The Website is not mobile friendly
+Created attachment 20 [details]
+how the website looks on iphone5
+When a device with a small screen (eg: iPhone 5 ) is used to visit the website, the website appears small very small and the user needs to zoom it in order to use it.
+As modern websites, the LRR's website also should scale to fit the size of the screen
+
+38   Home page still have Login form even when the user is logg ed in
+It is confusing when the user sees a login screen when he/she has already logged in.
+I suggest that the homepage displays other contents instead of a login and signup page
+
+40   Missing a submitted group lab report after accepting invitation to join group before deadline.
+Created attachment 22 [details]
+screenshot of accepted invitations and missed lab.
+A student was invited into a group severally by the group leader. After accepting all invitations, the student's details are expected to feature under the group.
+The group leader submitted the assignment, the invited student's details didn't appear.
+After the deadline, the student's missed lab report tab showed he missed the submission.
+ Screenshot attached.
+
+45   Log in Data Form incoherence
+Created attachment 27 [details]
+The bug report on a Pdf file
+The bug is as follow: I should log in as a student not as a lecturer because the form student sign-up and sign in both belong to a student not to the lecturer, to be able to log in as a lecturer I should have the form sign in for the lecturer.
+This is actually not a big concern.  Because the system
+could tell different roles based on different account names.
+I think it is simpler to have a single place to login, both for students,
+for instructors and for teaching assistants.
+
+46   The Sign in form and the Sign up form Should be in the same login user data form
+Created attachment 28 [details]
+WebApplication Home Login page With  a Sign up button link
+this is to creat a Sign button link  for  those who doesen't  have an acount already  in the LRR System
+
+48   Resetting password does not send resetting link
+Same here. I am unable to recover password password with my outlook.com email account.
+Even worse, I am unable to sign in again immediately after I sign up.
+Same here. I am unable to recover password password with my outlook.com email account.
+Even worse, I am unable to sign in again immediately after I sign up.
+THIS IS A REALLY SERIOUS BUG AND MUST BE FIXED AS SOON AS POSSIBLE.
+If a user could not log in again, this is the best way to drive away users!
+
+54   Group creation error on duplicated group names
+Created attachment 34 [details]
+Group Creation Error
+Marie was unable to create "group 2".
+See the attached picture the error message.
+She created "group 2" before.
+When she tried to create a group with the same name, she failed badly.
+Yes, she should fail, but we should not expose the SQL statements.
+Say some thing more friendly.
+
+58   Course number information
+Sir i want to improve the LLR search for course
+(Is not working right) if you don’t have the course number is impossible to find the course . I think that should be change .
+It should be easy to search for course and add it without courses number.
+-FADHEL ABDULLAH
+ Yes, that is a great point.  Currently, the instructor needs to announce the course number before students can join.  Not very convenient, is it?  Idally, the student should be presented with a full list of courses offered in the current semester.  (There might be a problem of too much information if it is a big unversity offering hundreds of courses.)  Add a course search functionality?  For example, people could search a course by key words, by instructor name, by department, etc.  Is it worth the trouble?  We could search on one big list using Ctrl+F.
+
+61   We cant submit assignment to LRR
+Created attachment 40 [details]
+The error its showing after clicking "submit report"
+when assignments a re uploaded in LRR when we want to  upload assignment when we press  submit the page says "Lab report can only be submitted by group admin" and its been showing the same for the last 3 assignments and we cant upload anything and it rules the assignment as missed
+
+68   Unable to login after sign up (as of April 29)
+
+73   Automatically generating grade statistics
+
+75   Assignment attachments storage path may cause overwriting
+FOLDER STRUCTURE CAN CAUSE FILE OVERWRTITING
+StudentNumber-AnswerSheet.txt is stored in a folder called ExamAnswerSubmission-Makeup, as is evident from the following URL:
+http://118.25.96.118/nor/Lab_Report_Assignments//ExamAnswerSubmission-Makeup/StudentNumber-AnswerSheet.txt
+One potential problem is that if two courses use the same assignment name "ExamAnswerSubmission-Makeup", then two courses will share the same folder.
+Even worse, if two courses use the same attachment file name, then one will be overwritten by another, whoever comes earlier.
+By the same reasoning, we also need to double check that a student's submission won't be overwritten by another student's submission.
+
+186  Unable to submit summary report
+Created attachment 66 [details]
+unable to submit anything
+I could not submit my summary report because I joined the wrong course, instead of joining the course CSC110102020, I joined this course CSC110102019.
+
+187  unable to edit the remarking reason
+Created attachment 67 [details]
+unable to edit the remarking reason
+While checking the mark of my previous assignment, I found the feedback from the instructor asking me to explain a sentence. I clicked the button to submit my answer and a small tab having two-button ("ENTER" and "CANCEL") and an answer text area shows up. I clicked the CANCEL button without writing anything in the answer text area and I got the following result(see attachment) with no possibility to change the answer.
+
+192  SQL Syntax error when I try to submit an assignment
+Created attachment 73 [details]
+I attached the error message it showed
+I tried to submit my textfile of reading report 2 and I continuously kept having this error when I press the submit button. please refer to the attachment to see more details about the error.
+
+193  I am not able to signup to LRR with same email I used in bachelors even though now I have a different id
+Created attachment 74 [details]
+I attached the error message it showed
+I did another class where we used LRR so now even though on a new id number I still can't sign up for LRR with the same email
+
+194   Duplication in group creation
+Created attachment 75 [details]
+I attached the error message it showed
+there is duplication in the group when created
+
+195   Submitted my assignment but it still appears on assignments to be submitted and also appears on submitted assignments
+Created attachment 76 [details]
+here is an attachment to refer to
+Submitted my assignment but it still appears on assignments to be submitted and also appears on submitted assignments even after showing "Thank you, assignment successfully submitted"
+
+211   URL field under "create portal" in "admin" page does not allow blank values as it suggests.
+Overview:
+When creating a course portal in admin page, if you leave the "URL (Leave blank to use Course Name)" field blank, the system does not allow you to create portal until you type a course URL. Although the field name suggests that leaving it blank the course name should be used instead.
+Steps to reproduce:
+1- Login as a lecturer.
+2- Go to "Admin" page from the header.
+3- Under "Create new Portal", fill all fields and leave "URL (Leave blank to use Course Name)" field blank.
+4- Click "Create Portal" button.
+Expected result:
+The system creates course portal successfully.
+Actuall result:
+The system alerts you to fill in the field "URL (Leave blank to use Course Name)".
+Additional information:
+None.
